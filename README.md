@@ -21,7 +21,7 @@ ButtonAddItem.Caption := Translate('Buttons.AddItem');
 ```
 With formatting
 ```
-LabelTimeLeft := TranslateF('Labels.TimeLeft', [Seconds]);
+LabelTimeLeft.Caption := TranslateF('Labels.TimeLeft', [Seconds]);
 ```
 
 The translation file is a .ini file, with .lng extension.
