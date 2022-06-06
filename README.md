@@ -19,3 +19,23 @@ Or
 ```
 ButtonAddItem.Caption := Translate('Buttons.AddItem');
 ```
+
+The translation file is a .ini file, with .lng extension.
+
+'Info' section is required. That's an example:
+
+```
+[Info]
+Author=John
+Icon=ICONBASE64STRING
+Lang=English (USA)
+Version=10
+
+[Buttons]
+AddItem=Add item
+CheckConnection=Check connection
+
+[Messages]
+Start=Start working
+Stop=Stop working
+```
