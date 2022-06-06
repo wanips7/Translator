@@ -19,6 +19,10 @@ Or
 ```
 ButtonAddItem.Caption := Translate('Buttons.AddItem');
 ```
+With formatting
+```
+LabelTimeLeft := TranslateF('Labels.TimeLeft', [Seconds]);
+```
 
 The translation file is a .ini file, with .lng extension.
 
@@ -35,7 +39,6 @@ Version=10
 AddItem=Add item
 CheckConnection=Check connection
 
-[Messages]
-Start=Start working
-Stop=Stop working
+[Labels]
+TimeLeft=Time left: %d seconds
 ```
