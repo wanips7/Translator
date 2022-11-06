@@ -1,5 +1,5 @@
 # Translator
-Simple module for translation support
+It's a simple module for translation support.
 
 Translator - this is a global object that's created automatically.
 
